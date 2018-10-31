@@ -13,6 +13,30 @@ namespace AD_all
 
 		static void Main(string[] args)
 		{
+			BinaryHeap bh = new BinaryHeap();
+			bh.newHeap(new bhNode[8] { new bhNode(),
+										new bhNode(10),
+										new bhNode(4),
+										new bhNode(7),
+										new bhNode(1),
+										new bhNode(3),
+										new bhNode(),
+										new bhNode(5) });
+			Console.WriteLine("isComplete: "+ bh.isComplete(1));
+			
+			BinaryHeap bh2 = new BinaryHeap();
+			bh2.newHeap(new bhNode[9] { new bhNode(),
+										new bhNode(15),
+										new bhNode(5),
+										new bhNode(11),
+										new bhNode(3),
+										new bhNode(4),
+										new bhNode(10),
+										new bhNode(7),
+										new bhNode(1) });
+			Console.WriteLine("isComplete: " + bh2.isComplete(1));
+
+
 			SortingAlgorithms.MergeSort_Algorithm.MergeSort(array);
 
 			Echoarray(array);

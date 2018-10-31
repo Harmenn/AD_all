@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryHeap.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,7 +53,7 @@
     <Compile Include="Queues\Queue_ArrayImplementation.cs" />
     <Compile Include="SortingAlgorithms\QuickSort_Algorithm.cs" />
     <Compile Include="SortingAlgorithms\ShellSort_Algorithm.cs" />
-    <Compile Include="BinaryHeap.cs" />
+    <Compile Include="MinHeap.cs" />
     <Compile Include="Stacks\Stack_ArrayImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
